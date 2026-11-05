@@ -11,6 +11,7 @@ provider "docker" {}
 
 resource "docker_image" "class_api" {
   name         = "bubbaj/it4200-fall-2026:2.49.0"
+  platform     = "linux/amd64"
   keep_locally = false
 }
 
