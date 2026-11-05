@@ -35,3 +35,12 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Local plans and secrets
+*.tfplan
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
