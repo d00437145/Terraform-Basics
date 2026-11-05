@@ -20,7 +20,7 @@ resource "docker_container" "class_api" {
   name  = "tutorial"
 
   ports {
-    internal = 5000
+    internal = 8000
     external = 8000
   }
 }
